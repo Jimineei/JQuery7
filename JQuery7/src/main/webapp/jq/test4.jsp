@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -81,46 +80,50 @@
         // 이미지 조작
         $('img').css({
             'width': '200px',
-            'height': '200px'
+            'height': '2s00px'
         });
         
         setInterval(function() {
             $('#divImg').append($('img').first());
         }, 2000);
+        
+        
+        
+        
+        
+        
     }); // jQuery
 </script>
 </head>
 <body>
-    <h1>test4.jsp</h1>
-    
-    <h2>head-0</h2>
-    <h2>head-1</h2>
-    <h2>head-2</h2>
-    
-    <hr>
-    <!-- 내용1~5 -->
-    <div>내용</div>
-    <div>내용</div>
-    <div>내용</div>
-    <div>내용</div>
-    <div>내용</div>
-    
-    <hr>
-    
-    <table border="1">
-        <tr>
-            <th>이름</th>
-            <th>지역</th>
-            <!-- <td>기타</td> -->
-        </tr>
-    </table>
-    
-    <hr>
-    
-    <div id="divImg">
-        <img src="ico_naver.png">
-        <img src="ico_kakao.png">
-        <img src="ico_phone.png">
-    </div>
+	<h1>test4.jsp</h1>
+
+	<h2>head-0</h2>
+	<h2>head-1</h2>
+	<h2>head-2</h2>
+
+	<hr>
+	<!-- 내용1~5 -->
+	<div>내용</div>
+	<div>내용</div>
+	<div>내용</div>
+	<div>내용</div>
+	<div>내용</div>
+
+	<hr>
+
+	<table border="1">
+		<tr>
+			<th>이름</th>
+			<th>지역</th>
+			<!-- <td>기타</td> -->
+		</tr>
+	</table>
+
+	<hr>
+
+	<div id="divImg">
+		<img src="ico_naver.png"> <img src="ico_kakao.png"> <img src="ico_phone.png">
+	</div>
 </body>
 </html>
